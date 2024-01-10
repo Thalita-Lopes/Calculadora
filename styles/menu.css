@@ -1,0 +1,25 @@
+.menu {
+    background-color: var(--cor-de-fundo);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.container__legenda {
+    
+    color: #002333;
+    text-transform: uppercase;
+    font-size: 12px;
+}
